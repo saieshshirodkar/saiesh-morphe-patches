@@ -4,15 +4,9 @@ Patches for apps requested by people.
 
 ## Patches
 
-<!-- PATCHES_START EXPANDED -->
-
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release. -->
-
-#### A list of your patches will automatically be shown here after your first patches release is created.
-
-&nbsp;
-
-<!-- PATCHES_END -->
+| App | Package | Version | Patches |
+|---|---|---|---|
+| Lightroom | com.adobe.lrmobile | 11.4.4 | Disable PairIP DRM, Unlock Premium |
 
 ## Usage
 
