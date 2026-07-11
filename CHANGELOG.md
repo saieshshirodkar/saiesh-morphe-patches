@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.2...v1.0.3) (2026-07-11)
+
+### Bug Fixes
+
+* patch all System.exit crash paths ([6eaa59e](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/6eaa59ee35647522e057bf43cf110a150adc2093))
+
 ## [1.0.2](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.1...v1.0.2) (2026-07-11)
 
 ### Bug Fixes

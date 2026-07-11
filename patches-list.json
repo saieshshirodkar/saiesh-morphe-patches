@@ -1,10 +1,10 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "patches": [
     {
       "name": "Disable PairIP DRM",
-      "description": "Disables PairIP signature verification and Google Play LVL license check. Required for the app to launch after re-signing.",
+      "description": "Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
