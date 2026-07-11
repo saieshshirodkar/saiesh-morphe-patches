@@ -6,8 +6,13 @@ Patches for apps requested by people.
 
 | App | Package | Version | Patches | Play Store |
 | --- | --- | --- | --- | --- |
-| Lightroom | `com.adobe.lrmobile` | 11.4.4 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.adobe.lrmobile) |
 | AT4K Launcher | `com.overdevs.at4k` | 0.99 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.overdevs.at4k&hl=en_IN) |
+
+## Deny-list
+
+| App | Package | Reason |
+| --- | --- | --- |
+| Lightroom | `com.adobe.lrmobile` | Native PairIP SIGSEGV on re-sign, cannot be patched. |
 
 Add this URL in Morphe Manager > Settings > Patch sources:
 

@@ -28,31 +28,6 @@
       "options": []
     },
     {
-      "name": "Disable PairIP DRM",
-      "description": "Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.adobe.lrmobile",
-          "name": "Lightroom",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#31ADFF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "11.4.4",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Fix Firebase after re-signing",
       "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch no other config needed.",
       "default": false,
@@ -261,30 +236,5 @@
       ],
       "options": []
     },
-    {
-      "name": "Unlock Premium",
-      "description": "Unlocks all premium features by forcing entitlement status to SUBSCRIPTION and making all premium gating checks return true.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.adobe.lrmobile",
-          "name": "Lightroom",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#31ADFF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "11.4.4",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    }
   ]
 }
