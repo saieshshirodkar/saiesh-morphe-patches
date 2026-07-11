@@ -5,8 +5,8 @@ Patches for apps requested by people.
 ## Patches
 
 | App | Package | Version | Patches | Play Store |
-|---|---|---|---|---|---|
-| Lightroom | com.adobe.lrmobile | 11.4.4 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.adobe.lrmobile) |
+| --- | --- | --- | --- | --- |
+| Lightroom | `com.adobe.lrmobile` | 11.4.4 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.adobe.lrmobile) |
 
 Add this URL in Morphe Manager > Settings > Patch sources:
 
