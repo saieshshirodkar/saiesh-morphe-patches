@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.3...v1.0.4) (2026-07-11)
+
+### App Support
+
+* add AT4K Launcher patches (com.overdevs.at4k) ([c327137](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/c32713750d9e8a598f625def0f07999fa6229ba8))
+
 ## [1.0.3](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.2...v1.0.3) (2026-07-11)
 
 ### Bug Fixes
