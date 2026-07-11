@@ -8,11 +8,11 @@ Patches for apps requested by people.
 |---|---|---|---|
 | Lightroom | com.adobe.lrmobile | 11.4.4 | Disable PairIP DRM, Unlock Premium |
 
-## Usage
+Add this URL in Morphe Manager > Settings > Patch sources:
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=saiesh/saiesh-morphe-patches
-
-Or manually add this repository URL as a patch source in Morphe: https://github.com/saiesh/saiesh-morphe-patches
+```
+https://github.com/saieshshirodkar/saiesh-morphe-patches
+```
 
 ## Building
 
