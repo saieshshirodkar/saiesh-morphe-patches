@@ -1,0 +1,73 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    [
+        "@semantic-release/commit-analyzer", {
+        "releaseRules": [
+            { "type": "fix", "release": "patch" },
+            { "type": "feat", "release": "minor" },
+            { "type": "bump", "release": "patch" },
+            { "type": "perf", "release": "patch" },
+            { "type": "build", "scope": "Needs bump", "release": "patch" }
+        ]
+        }
+    ],
+    [
+        "@semantic-release/release-notes-generator", {
+        "preset": "conventionalcommits",
+        "presetConfig": {
+            "types": [
+                { "type": "fix", "section": "Bug Fixes", "hidden": false },
+                { "type": "feat", "section": "Features", "hidden": false },
+                { "type": "bump", "section": "App Support", "hidden": false },
+                { "type": "perf", "section": "Improvements",  "hidden": false },
+                { "type": "build", "hidden": true }
+            ]
+        },
+        "writerOpts": {
+            "commitsSort": ["subject", "scope"]
+        }
+        }
+    ],
+    [
+      "@MorpheApp/changelog", {
+        "releaseJson": {
+          "path": "patches-bundle.json",
+          "downloadUrlTemplate": "https://github.com/${owner}/${repo}/releases/download/v${version}/patches-${version}.mpp",
+          "signatureUrlTemplate": ""
+        }
+      }
+    ],
+    "gradle-semantic-release-plugin",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "./gradlew generatePatchesList \
+          && jq '.version=\"${nextRelease.version}\"' patches-list.json > patches-list.json.tmp && mv patches-list.json.tmp patches-list.json"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md",
+          "gradle.properties",
+          "patches-bundle.json",
+          "patches-list.json"
+        ],
+        "message": "release: v${nextRelease.version} [skip ci]"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "patches/build/libs/patches-!(*sources*|*javadoc*).mpp?(.asc)"
+          }
+        ],
+        "successComment": false
+      }
+    ]
+  ]
+}

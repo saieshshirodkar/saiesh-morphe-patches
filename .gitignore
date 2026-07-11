@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!src/**/build/
+local.properties
+gradle-app.setting
+.gradletasknamecache
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.mimocode/
+out/
+
+# Morphe CLI output
+tmp_*/
+/lightroom/
+*.mpp
+
+# APK files
+*.apk
+*.apkm
+*.apks
+*.aab
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+patches_created.md
+AGENTS.md
+
+# Misc
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.log
+*.zip
+*.tar.gz
+node_modules/
+*.ctxt
+hs_err_pid*
+crashlytics.properties
+fabric.properties
