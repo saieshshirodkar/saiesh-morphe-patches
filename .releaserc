@@ -64,6 +64,12 @@
         "assets": [
           {
             "path": "patches/build/libs/patches-!(*sources*|*javadoc*).mpp?(.asc)"
+          },
+          {
+            "path": "patches-list.json"
+          },
+          {
+            "path": "patches-bundle.json"
           }
         ],
         "successComment": false
