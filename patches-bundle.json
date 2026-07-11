@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-11T08:48:01",
-  "description": "## [1.0.1](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.0...v1.0.1) (2026-07-11)\n\n### Bug Fixes\n\n* add patches-list.json and patches-bundle.json to release assets ([233f5da](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/233f5dac3eded2bf4d464d5a93a9fe5bf7077c00))",
-  "download_url": "https://github.com/saieshshirodkar/saiesh-morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "created_at": "2026-07-11T08:58:28",
+  "description": "## [1.0.2](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.1...v1.0.2) (2026-07-11)\n\n### Bug Fixes\n\n* table formatting ([7768210](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/776821044edd6b2dfe52ed8679c910f326a118ae))",
+  "download_url": "https://github.com/saieshshirodkar/saiesh-morphe-patches/releases/download/v1.0.2/patches-1.0.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

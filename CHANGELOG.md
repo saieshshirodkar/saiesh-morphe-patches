@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.1...v1.0.2) (2026-07-11)
+
+### Bug Fixes
+
+* table formatting ([7768210](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/776821044edd6b2dfe52ed8679c910f326a118ae))
+
 ## [1.0.1](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.0...v1.0.1) (2026-07-11)
 
 ### Bug Fixes
