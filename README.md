@@ -25,7 +25,7 @@ Output: `patches/build/libs/patches-*.mpp`
 
 ## Disclaimer
 
-Use at your own risk. I am not responsible for any issues.
+Use at your own risk. There could be bugs or issues — please report them in the [Issues](https://github.com/saieshshirodkar/saiesh-morphe-patches/issues) section.
 
 ## Donate
 
