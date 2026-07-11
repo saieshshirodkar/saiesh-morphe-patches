@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.0...v1.0.1) (2026-07-11)
+
+### Bug Fixes
+
+* add patches-list.json and patches-bundle.json to release assets ([233f5da](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/233f5dac3eded2bf4d464d5a93a9fe5bf7077c00))
+
 ## 1.0.0 (2026-07-11)
 
 ### Bug Fixes
