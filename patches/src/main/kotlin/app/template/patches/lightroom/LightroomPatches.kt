@@ -8,7 +8,7 @@ import app.template.patches.shared.clearBody
 @Suppress("unused")
 val lightroomDisablePairipPatch = bytecodePatch(
     name = "Disable PairIP DRM",
-    description = "Disables PairIP signature verification and Google Play LVL license check. Required for the app to launch after re-signing.",
+    description = "Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.",
     default = true,
 ) {
     compatibleWith(LIGHTROOM_COMPATIBILITY)
@@ -62,6 +62,41 @@ val lightroomDisablePairipPatch = bytecodePatch(
         PerformLocalInstallerCheckFingerprint.method.apply {
             clearBody()
             addInstructions(0, "const/4 v0, 0x1\nreturn v0")
+        }
+
+        LicenseExitActionFingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        LicenseActivityExitAppFingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        ChecksumVerifierC_Fingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        MHSDKInitFingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        LrMobileAppExitEFingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        LrMobileAppExitFFingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
+        }
+
+        WichitaCoreB_Fingerprint.methodOrNull?.apply {
+            clearBody()
+            addInstructions(0, "return-void")
         }
     }
 }

@@ -108,3 +108,56 @@ val EntitlementParserFingerprint = Fingerprint(
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
     strings = listOf("SUBSCRIPTION", "NOT_ENTITLED", "EXPIRED", "TRIAL"),
 )
+
+val LicenseExitActionFingerprint = Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseClient$1;",
+    name = "run",
+    returnType = "V",
+)
+
+val LicenseActivityExitAppFingerprint = Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseActivity;",
+    name = "exitApp",
+    returnType = "V",
+    accessFlags = listOf(AccessFlags.PROTECTED),
+)
+
+val ChecksumVerifierC_Fingerprint = Fingerprint(
+    definingClass = "Lcom/adobe/mobile/icmobilelib/ChecksumVerifier;",
+    name = "c",
+    returnType = "V",
+    accessFlags = listOf(AccessFlags.PUBLIC),
+    strings = listOf("MH", "ChecksumVerifier: preparing encrypted payload"),
+)
+
+val MHSDKInitFingerprint = Fingerprint(
+    definingClass = "Lcom/adobe/lrmobile/LrMobileApplication;",
+    name = "I",
+    returnType = "V",
+    parameters = listOf("Lma/s;"),
+    accessFlags = listOf(AccessFlags.PRIVATE),
+    strings = listOf("Initializing MHSDK", "icm_branch_campaign"),
+)
+
+val LrMobileAppExitEFingerprint = Fingerprint(
+    definingClass = "Lcom/adobe/lrmobile/LrMobileApplication;",
+    name = "e",
+    returnType = "V",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC, AccessFlags.SYNTHETIC),
+)
+
+val LrMobileAppExitFFingerprint = Fingerprint(
+    definingClass = "Lcom/adobe/lrmobile/LrMobileApplication;",
+    name = "f",
+    returnType = "V",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC, AccessFlags.SYNTHETIC),
+)
+
+val WichitaCoreB_Fingerprint = Fingerprint(
+    definingClass = "Lcom/adobe/wichitafoundation/Core;",
+    name = "b",
+    returnType = "V",
+    parameters = listOf("Ljava/io/File;"),
+    accessFlags = listOf(AccessFlags.PRIVATE, AccessFlags.STATIC),
+    strings = listOf("KSKeychainManager_Key", "KSKeychainManager_IV"),
+)
