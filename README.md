@@ -7,7 +7,7 @@ Patches for apps requested by people.
 | App | Package | Version | Patches | Play Store |
 | --- | --- | --- | --- | --- |
 | Lightroom | `com.adobe.lrmobile` | 11.4.4 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.adobe.lrmobile) |
-| AT4K Launcher | `com.overdevs.at4k` | 0.99 | Disable PairIP DRM, Unlock Premium | [APKMirror](https://www.apkmirror.com/apk/overdevs/at4k-launcher-android-tv/) |
+| AT4K Launcher | `com.overdevs.at4k` | 0.99 | Disable PairIP DRM, Unlock Premium | |
 
 Add this URL in Morphe Manager > Settings > Patch sources:
 
