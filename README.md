@@ -7,6 +7,7 @@ Patches for apps requested by people.
 | App | Package | Version | Patches | Play Store |
 | --- | --- | --- | --- | --- |
 | AT4K Launcher | `com.overdevs.at4k` | 0.99 | Disable PairIP DRM, Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.overdevs.at4k&hl=en_IN) |
+| Projectivy Launcher | `com.spocky.projengmenu` | 4.71 | Unlock Premium | [Play Store](https://play.google.com/store/apps/details?id=com.spocky.projengmenu&hl=en) |
 
 ## Deny-list
 
