@@ -12,11 +12,11 @@ object Constants {
         targets = listOf(AppTarget(version = "0.99", versionCode = 12))
     )
 
-    val PICTUREMUSHROOM_COMPATIBILITY = Compatibility(
-        name = "Picture Mushroom",
-        packageName = "com.glority.picturemushroom",
-        appIconColor = 0x7BC67E,
-        targets = listOf(AppTarget(version = "2.9.31", versionCode = 90))
+    val ISS_COMPATIBILITY = Compatibility(
+        name = "ISS Live Now",
+        packageName = "com.nicedayapps.iss_free",
+        appIconColor = 0x1A73E8,
+        targets = listOf(AppTarget(version = "8.5.3", versionCode = 853001))
     )
 
     val PROJECTIVY_COMPATIBILITY = Compatibility(
