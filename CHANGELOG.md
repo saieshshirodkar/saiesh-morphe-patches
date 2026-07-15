@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.6...v1.0.7) (2026-07-15)
+
+### App Support
+
+* add ISS Live Now patches (com.nicedayapps.iss_free) ([55df003](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/55df003f7136c184201d72d974484b6acb863e69))
+
 ## [1.0.6](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.5...v1.0.6) (2026-07-15)
 
 ### App Support
