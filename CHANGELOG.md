@@ -2,6 +2,12 @@
 
 ### App Support
 
+* add Projectivy Launcher patches (com.spocky.projengmenu) ([0328bc6](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/0328bc6add647c33347b96c4b67ce26cc2fc48df))
+
+## [1.0.5](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.4...v1.0.5) (2026-07-15)
+
+### App Support
+
 * add Projectivy Launcher patches (com.spocky.projengmenu)
 
 ## [1.0.4](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.3...v1.0.4) (2026-07-11)
